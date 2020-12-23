@@ -1,0 +1,56 @@
+.navbar {
+    @include media-breakpoint-up(sm) {
+        .navbar-brand {
+            font-size: 28px
+        }
+    }
+    @include media-breakpoint-up(md) {
+        .navbar-brand {
+            font-size: 32px
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        .navbar-brand {
+            font: size 36px
+        }
+    }
+    @include media-breakpoint-up(xl) {
+        .navbar-brand {
+            font-size: 40px
+        }
+    }
+    p.up {
+        position: fixed;
+        bottom: 20px;
+        right: -20px;
+        transform: translatex(-100%);
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        box-shadow: 0 0 1px 1px black;
+        border-radius: 50%;
+        padding: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        transition: .2s;
+        z-index: 1;
+        cursor: pointer;
+        text-align: center;
+        &:hover {
+            i {
+                transition: .2s;
+                transform: scale(1.2);
+            }
+        }
+    }
+}
+
+.carousel-inner {
+    height: 70vh;
+    .carousel-item {
+        background-position: center;
+        background-size: cover;
+        // img {
+        //     height: 70vh;
+        // }
+    }
+}

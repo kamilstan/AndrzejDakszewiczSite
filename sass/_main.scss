@@ -1,0 +1,84 @@
+    section {
+        @include media-breakpoint-up(xs) {
+            h1 {
+                font-size: 24px;
+            }
+            & {
+                min-height: 65vh;
+            }
+        }
+        @include media-breakpoint-up(sm) {
+            h1 {
+                font-size: 28px;
+            }
+            & {
+                min-height: 65vh;
+            }
+        }
+        @include media-breakpoint-up(md) {
+            h1 {
+                font-size: 32px
+            }
+            & {
+                min-height: 65vh;
+            }
+        }
+        @include media-breakpoint-up(lg) {
+            h1 {
+                font-size: 36px
+            }
+            ;
+            & {
+                min-height: 60vh;
+            }
+        }
+        @include media-breakpoint-up(xl) {
+            h1 {
+                font-size: 40px
+            }
+            ;
+            & {
+                min-height: 60vh;
+            }
+        }
+        display: none;
+        .card {
+            padding: 5px;
+            border-width: 0 0 2px 0;
+            margin-bottom: 10px;
+        }
+        &.active {
+            display: block;
+        }
+        &.news {
+            .card-header {
+                color: #fff;
+                background-color: #343a40;
+                opacity: 90%;
+            }
+        }
+    }
+    
+    .contact {
+        div {
+            margin: 0 0 50px 0;
+        }
+        a {
+            color: none;
+            text-decoration: none;
+            i {
+                font-size: 62px;
+                color: #343a40;
+                background-color: #fff;
+                padding: 10px;
+                transition: .2s;
+                &:hover {
+                    background-color: #343a40;
+                    color: #fff;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+    
+    // sticky-top
