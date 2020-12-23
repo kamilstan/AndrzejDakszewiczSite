@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Andrzej Dakszewicz</title>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top d-flex flex-xl-column flex-lg-column">
+            <span class="navbar-brand mb-0 ">Andrzej Dakszewicz </span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <p class='up'><i class="fas fa-arrow-up"></i></p>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav border-bottom border-top ">
+                    <li class="nav-item px-4">
+                        <a class="nav-link home" href="#">Home </a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link about-me" href="#">O mnie </a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link gallery" href="#">Malarstwo</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link upcycling" href="#">Upcycling</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link news" href="#">Aktualności</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a class="nav-link contact" href="#">Kontakt</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <section id="carouselExampleSlidesOnly" class="carousel slide carousel-fade py-3 mb-5 container routing home active" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/image1.jpg" class="d-block w-100" alt="image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image2.jpg" class="d-block w-100" alt="image">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/image3.jpg" class="d-block w-100" alt="image">
+                </div>
+            </div>
+        </section>
+
+    </header>
+    <main>
+        <section id="about-me" class="about-me container my-5 routing">
+            <h1 class='mb-5 border-bottom'>O mnie</h1>
+            <div class="row">
+                <div class="card-body col-lg-6 col-md-12 d-flex flex-column justify-content-around ">
+                    <p class="card-text">
+                        Maluję to czego nie ma, z tęsknoty za nieznanym. Ubieram, NIEISTNIEJĄCE, w formy, czasem pejzażu, czasem martwej natury, czasem w kształty anatomiczne, ale ten świat wciąż pozostaje nierealny.
+                    </p>
+                    <p class="card-text">
+                        Każdy nowy obraz jest dla mnie samego niespodzianką, nigdy nie wiem co namaluję i jaki to co namaluję będzie miało wyraz i sens.
+                    </p>
+                    <p class="card-text">
+                        Projektowanie obrazu jest fascynującym zmaganiem z formą, kolorem i przede wszystkim kompozycją, która jest podstawą oddziaływania na widza.
+                    </p>
+                    <p class="card-text">
+                        Indywidualny rys moich prac jest przypadkowy, nie jest moim zamiarem. Tworzę malarstwo a nie styl, który jak powiedział niegdyś Marcel Duchamp jest ślepą uliczką i ogranicza kreatywność.
+                    </p>
+
+                </div>
+                <img src="./assets/aboutMe.jpg" class="card-img-top d-block col-lg-6 col-md-12 img-fluid rounded-circle " alt="photoOfMe">
+
+            </div>
+        </section>
+        <section id="gallery" class="gallery container my-5 routing">
+            <h1 class="mb-5 border-bottom">Galeria</h1>
+            <div class="row">
+                <div class="col-sm-6 col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto1.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb1.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto2.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb2.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto3.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb3.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto4.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb4.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto5.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb5.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto6.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb6.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto7.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb7.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto8.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb8.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card">
+                        <a href="./assets/galleryPhoto9.jpg" data-toggle="lightbox" data-gallery="gallery">
+                            <img src="./assets/galleryThumb9.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="upcycling" class="upcycling container my-5 routing">
+            <h1 class="mb-5 border-bottom">Upcycling</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="./assets/upcyclingPhoto1.jpg" data-toggle="lightbox" data-gallery="gallery1">
+                            <img src="./assets/upcyclingThumb1.jpg" class="card-img-top img-thumbnail" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="./assets/upcyclingPhoto2.jpg" data-toggle="lightbox" data-gallery="gallery1">
+                            <img src="./assets/upcyclingThumb2.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="./assets/upcyclingPhoto3.jpg" data-toggle="lightbox" data-gallery="gallery1">
+                            <img src="./assets/upcyclingThumb3.jpg" class="card-img-top" alt="picture">
+                        </a>
+                        <div class="card-body">
+                            <p class="card-text">Some quick example</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="news" class="news container my-5 routing">
+            <h1 class='mb-5 border-bottom'>Aktualności</h1>
+            <div class="card">
+                <div class="card-header">
+                    Quote
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    Wystawa w Leśnicy
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Wrocław <cite title="Source Title">25.07.2020</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+
+        </section>
+        <section id="contact" class="contact container my-5 routing">
+            <h1 class='mb-5 border-bottom'>Kontakt</h1>
+            <address class="row text-center">
+                <div class="other-contacts col-md-12 ">
+                    <p>Andrzej Dakszewicz</p>
+                    <p><strong>Numer telefonu:</strong> 605126879</p>
+                    <p><strong>E-mail:</strong> dakszewiczandrzej@gmail.com</p>
+                </div>
+                <div class="social-media col-md-12">
+                   <a href="https://www.youtube.com/channel/UC0w0zlQSV7rGs_PRovE8njQ" target="_blank" rel="noopener noreferrer"> <i class="fab fa-youtube"></i></a>
+                    <a href="https://www.facebook.com/andrzej.dakszewicz" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+                   <a href="https://www.instagram.com/andrzejdakszewicz/" target="_blank" rel="noopener noreferrer"> <i class="fab fa-instagram"></i></a>
+                </div>
+            </address>
+        </section>
+    </main>
+    <footer class='d-flex justify-content-center align-items-center bg-dark text-white mt-5 py-3'>
+        <p>Andrzej Dakszewicz 2020</p>
+
+    </footer>
+
+<script type="text/javascript" src="/main.bundle.js"></script></body>
+
+</html>
